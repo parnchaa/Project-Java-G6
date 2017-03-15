@@ -1,13 +1,14 @@
 package model;
 
-
 public class User {
 
     private long userId;
     private String firstName, lastName, position, mobile, email, user, password;
 
     public void login(String user, String pass) {
-
+        if (user.equals(this.user) && password.equals(this.password)) {
+            
+        }
     }
 
     public void logout() {
