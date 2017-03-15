@@ -12,7 +12,7 @@ public class User {
     }
 
     public void logout() {
-
+        
     }
 
     public void register(String firstname, String lastname, String posotion, String moblie, String email, String user, String pass) {
