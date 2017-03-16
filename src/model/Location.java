@@ -1,7 +1,7 @@
 package model;
 
 
-public class Account extends Place {
+public class Location extends Place {
 
     private long accountId;
     private Place place;
