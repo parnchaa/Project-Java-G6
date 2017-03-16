@@ -4,7 +4,7 @@ package model;
 import java.util.Date;
 import java.util.HashMap;
 
-public class Transaction extends Account {
+public class Transaction extends Location {
 
     private long transactionId, userId;
     private HashMap<String, String> transactionDescription;
